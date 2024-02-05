@@ -5,5 +5,14 @@
 .leftSection {
   min-width: 240px;
   height: 100dvh;
+  padding: 8px;
   border-right: 1px solid #666666;
+
+  .user {
+    display: flex;
+  }
+}
+
+.rightSection {
+  flex: 1;
 }
